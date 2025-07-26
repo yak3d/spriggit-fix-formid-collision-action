@@ -59,4 +59,3 @@ jobs:
         with:
           spriggitVersion: 0.38.4
           pluginPath: ./plugin
-
