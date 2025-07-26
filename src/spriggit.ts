@@ -15,7 +15,7 @@ export const dedupeFormIds = async (
   }
 
   exec(
-    spriggitCliPath + ` formid-collision -p ${pluginPath}`,
+    spriggitCliPath + ` formid-collision -p "${pluginPath}"`,
     (error, stdout, stderr) => {
       if (error) {
         console.error(
