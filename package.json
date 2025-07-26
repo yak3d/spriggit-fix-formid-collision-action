@@ -38,6 +38,7 @@
   "license": "MIT",
   "dependencies": {
     "@actions/core": "^1.11.1",
+    "@rollup/plugin-json": "^6.1.0",
     "@yak3d/spriggit-action-lib": "^1.0.0"
   },
   "devDependencies": {
