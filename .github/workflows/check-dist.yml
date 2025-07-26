@@ -40,8 +40,6 @@ jobs:
       - name: Install Dependencies
         id: install
         run: npm ci
-        env:
-          NODE_AUTH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
 
       - name: Build dist/ Directory
         id: build
