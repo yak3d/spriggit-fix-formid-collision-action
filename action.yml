@@ -1,23 +1,21 @@
-name: The name of your action here
-description: Provide a description here
-author: Your name or organization here
+name: Spriggit Fix Form ID Collisions
+description: Fixes any Form ID collisions in your plugin/master, usually done after a merge.
+author: yak3d
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.
 branding:
-  icon: heart
-  color: red
+  icon: shuffle
+  color: green
 
 # Define your inputs here.
 inputs:
-  milliseconds:
-    description: Your input description here
+  spriggitVersion:
+    description: The version of Spriggit to install
     required: true
-    default: '1000'
-
-# Define your outputs here.
-outputs:
-  time:
-    description: Your output description here
+    default: '0.38.5'
+  pluginPath:
+    description: The path to the serialized plugin data
+    required: true
 
 runs:
   using: node20

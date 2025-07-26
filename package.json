@@ -1,8 +1,8 @@
 {
-  "name": "typescript-action",
-  "description": "GitHub Actions TypeScript template",
-  "version": "0.0.0",
-  "author": "",
+  "name": "spriggit-fix-formid-collision-action",
+  "description": "Runs spriggit's Form ID collision tool to resolve any collisions with Form IDs",
+  "version": "0.0.1",
+  "author": "yak3d",
   "type": "module",
   "private": true,
   "homepage": "https://github.com/actions/typescript-action",
@@ -37,7 +37,8 @@
   },
   "license": "MIT",
   "dependencies": {
-    "@actions/core": "^1.11.1"
+    "@actions/core": "^1.11.1",
+    "@yak3d/spriggit-action-lib": "^1.0.0"
   },
   "devDependencies": {
     "@eslint/compat": "^1.3.1",
