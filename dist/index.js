@@ -45072,7 +45072,7 @@ const dedupeFormIds = async (spriggitCliPath, pluginPath) => {
         console.error(`spriggit was not found at ${spriggitCliPath}`);
         throw error(`spriggit was not found at ${spriggitCliPath}`);
     }
-    exec$1(spriggitCliPath + ` formid-collision -p ${pluginPath}`, (error, stdout, stderr) => {
+    exec$1(spriggitCliPath + ` formid-collision -p "${pluginPath}"`, (error, stdout, stderr) => {
         if (error) {
             console.error(`There was an error running ${spriggitCliPath}, see stderr below`);
             console.log(stdout);
