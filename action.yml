@@ -1,5 +1,7 @@
 name: Spriggit Fix Form ID Collisions
-description: Fixes any Form ID collisions in your plugin/master, usually done after a merge.
+description:
+  Fixes any Form ID collisions in your plugin/master, usually done after a
+  merge.
 author: yak3d
 
 # Add your action's branding here. This will appear on the GitHub Marketplace.

@@ -6,7 +6,10 @@
 [![CodeQL](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/actions/typescript-action/actions/workflows/codeql-analysis.yml)
 [![Coverage](./badges/coverage.svg)](./badges/coverage.svg)
 
-This action will run `spriggit formid-collision` on a given plugin path to resolve the Form ID collisions. See the [Spriggit docs](https://mutagen-modding.github.io/Spriggit/merge-conflicts/#formid-collision) for more information.
+This action will run `spriggit formid-collision` on a given plugin path to
+resolve the Form ID collisions. See the
+[Spriggit docs](https://mutagen-modding.github.io/Spriggit/merge-conflicts/#formid-collision)
+for more information.
 
 ## Initial Setup
 
