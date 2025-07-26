@@ -1,7 +1,7 @@
 {
   "name": "spriggit-fix-formid-collision-action",
   "description": "Runs spriggit's Form ID collision tool to resolve any collisions with Form IDs",
-  "version": "v0.0.1",
+  "version": "v1.0.0",
   "author": "yak3d",
   "type": "module",
   "private": true,
